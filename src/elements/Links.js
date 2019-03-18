@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { applyStyleModifiers } from 'styled-components-modifiers';
 import {
-  dkPurple, ltPurple, navy,
+  dkPurple, navy, white,
 } from '../utilities/index';
 
 const TEXT_MODIFIERS = {
@@ -17,10 +17,10 @@ const TEXT_MODIFIERS = {
 export const Link = styled.a`
   text-decoration: none;
   font-size: 16px;
-  color: ${dkPurple};
+  color: ${white};
   transition: color .2s ease-in;
   :hover {
-    color: ${ltPurple};
+    color: ${dkPurple};
   }
 
   /* Applying Modifers */

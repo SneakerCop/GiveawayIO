@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { applyStyleModifiers } from 'styled-components-modifiers';
-import { navy, below } from '../utilities/index';
+import { navy, below, white } from '../utilities/index';
 
 const TEXT_MODIFIERS = {
   // Size Styles
@@ -36,6 +36,11 @@ const TEXT_MODIFIERS = {
 
   right: () => `
     text-align: right;
+  `,
+
+  // Color Styles
+  white: () => `
+    color: ${white};
   `,
 };
 
