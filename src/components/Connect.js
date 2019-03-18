@@ -18,7 +18,7 @@ const Connect = () => (
           <Heading modifiers={['sub', 'right']}>Connect</Heading>
           <Text modifiers={['light', 'right']}>Build, host, and launch your giveaways straight to the platform of your choosing.</Text>
           <ButtonContainer>
-            <Button style={{ width: '150px' }}><a href="#connect">Connect</a></Button>
+            <Button><a href="#connect">Connect</a></Button>
           </ButtonContainer>
         </Col>
       </Row>

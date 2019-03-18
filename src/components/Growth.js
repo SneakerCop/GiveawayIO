@@ -18,7 +18,7 @@ const Growth = () => (
           <Heading modifiers={['sub', 'right']}>Growth</Heading>
           <Text modifiers={['light', 'right']}>Expand and reach out to  your community by doing giveaways. Who doesn’t like free stuff?</Text>
           <ButtonContainer>
-            <Button style={{ width: '150px' }}><a href="#getstarted">Get Started</a></Button>
+            <Button><a href="#getstarted">Get Started</a></Button>
           </ButtonContainer>
         </Col>
       </Row>

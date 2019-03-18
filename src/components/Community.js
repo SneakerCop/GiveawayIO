@@ -15,7 +15,7 @@ const Community = () => (
           <Heading modifiers="sub">Community</Heading>
           <Text modifiers="light">Community comes first for content creators, so why would we put it last?</Text>
           <ButtonContainer>
-            <Button style={{ width: '150px' }}><a href="#sendinvite">Send Invite</a></Button>
+            <Button><a href="#sendinvite">Send Invite</a></Button>
           </ButtonContainer>
         </Col>
         <Col sm={8} md={4} lg={6} xl={6}>
